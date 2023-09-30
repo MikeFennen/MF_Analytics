@@ -1106,7 +1106,7 @@ section .container {
 
 /* Regel, um sicherzustellen, dass die Videos nicht zu breit sind */
 .video-container iframe {
-  max-width: 50%;
+  max-width: 150%;
   height: auto;
 }
 
