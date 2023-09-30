@@ -1096,3 +1096,16 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+/* CSS-Regeln für die Videos */
+#video-container {
+  display: inline-block;
+  margin-right: 10px; /* Abstand zwischen den Videos (anpassbar) */
+}
+
+/* Regel, um sicherzustellen, dass die Videos nicht zu breit sind */
+#video-container iframe {
+  max-width: 100%;
+  height: auto;
+}
+
