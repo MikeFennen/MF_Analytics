@@ -1097,19 +1097,18 @@ section .container {
   }
 }
 
-/* CSS-Regeln für die Video-Grid */
-.video-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px; /* Ändern Sie 10px auf den gewünschten Abstand zwischen den Videos */
+/* CSS-Regeln für die Video-Container */
+.video-container {
+  display: inline-block;
+  margin-right: 10px; /* Abstand zwischen den Videos (anpassbar) */
 }
 
-/* Regel, um sicherzustellen, dass die Videos nicht zu breit sind */
+/* Regel, um die Video-Größe anzupassen */
 .video-container iframe {
-  flex: 1;
-  max-width: calc(50% - 5px); /* Ändern Sie 50% auf den gewünschten prozentualen Anteil und passen Sie den Abstand entsprechend an */
-  height: auto;
+  width: 560px; /* Breite des Videos (anpassbar) */
+  height: 315px; /* Höhe des Videos (anpassbar) */
 }
+
 
 
 
