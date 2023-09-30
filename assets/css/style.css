@@ -1100,7 +1100,7 @@ section .container {
 /* CSS-Regeln für die Video-Grid */
 .video-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ändern Sie 300px auf die gewünschte Breite pro Video */
+  grid-template-columns: repeat(auto-fill, minmax(600px, 1fr)); /* Ändern Sie 300px auf die gewünschte Breite pro Video */
   gap: 10px; /* Ändern Sie 10px auf den gewünschten Abstand zwischen den Videos */
 }
 
