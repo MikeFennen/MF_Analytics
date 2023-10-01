@@ -1097,18 +1097,7 @@ section .container {
   }
 }
 
-/* CSS-Regeln für das Video-Raster */
-.video-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(800px, 1fr)); /* Ändern Sie 400px auf die gewünschte Breite pro Video */
-  gap: 10px; /* Ändern Sie 10px auf den gewünschten Abstand zwischen den Videos */
-}
 
-/* Regel, um sicherzustellen, dass die Videos nicht zu breit sind */
-.video-container iframe {
-  max-width: 150%;
-  height: auto;
-}
 
 
 
